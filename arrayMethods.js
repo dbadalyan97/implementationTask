@@ -73,7 +73,5 @@
 //     }
 //     return accum;
 // }
-
-// console.log(reduce([1, 2, 3, 4, 5], (acc, elem) => elem * acc));
 //
-// console.log(reduce([1, 2, 3, 4, 5], (acc, elem) => elem * acc, 1));
+// console.log(reduce([1, 2, 3, 4, 5], (acc, elem) => elem * acc));
