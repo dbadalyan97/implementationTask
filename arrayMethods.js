@@ -60,7 +60,7 @@
 //     return elem < 2;
 // }))
 
-//
+//reduce method
 // const reduce = (arr, callBack, accum) => {
 //     for (let i = 0; i < arr.length; i++) {
 //         accum = callBack(accum, arr[i]);
