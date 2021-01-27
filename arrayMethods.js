@@ -60,12 +60,20 @@
 //     return elem < 2;
 // }))
 
-//reduce method
+// reduce method
 // const reduce = (arr, callBack, accum) => {
-//     for (let i = 0; i < arr.length; i++) {
+//     let i=0
+//     if(typeof accum==='undefined'){
+//         accum=arr[0];
+//         i=1;
+//     }
+//     while(i<arr.length) {
 //         accum = callBack(accum, arr[i]);
+//         i++;
 //     }
 //     return accum;
 // }
+
+// console.log(reduce([1, 2, 3, 4, 5], (acc, elem) => elem * acc));
 //
 // console.log(reduce([1, 2, 3, 4, 5], (acc, elem) => elem * acc, 1));
